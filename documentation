@@ -1,0 +1,6 @@
+Infrastructure documentation
+First box label aws is my amazon virtual machine or server that house my instructure and resources.
+Next is my VPC ip: 10.0.0.0/16 which is my virtual private cloud which contains my subnet. The subnet is both front end and backend. The front end subnet controls traffic in n out of the vpc while the backend subnet only communicate with the front end subnet.
+
+Next is cidr blocks which helps to allocate ips addresses to my subnets. The frontend subnet ip address is 10.0.0.0/24 while the back is allocated 10.1.0.0.0/24
+
